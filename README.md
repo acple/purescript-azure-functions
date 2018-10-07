@@ -18,5 +18,5 @@ main = mkAzureFunction do
 ## Build
 ```sh
 pulp build -O --skip-entry-point --to YourFunctions/index.js
-echo 'module.exports=PS[\"Main\"].main;' >> YourFunctions/index.js
+echo 'module.exports=PS["Main"].main;' >> YourFunctions/index.js
 ```
