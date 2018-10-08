@@ -2,6 +2,7 @@ module Azure.Functions
   ( Context
   , AzureState, AzureM, AzureFunction
   , log, warn, error, logVerbose
+  , getSetting
   , mkAzureFunction
   ) where
 
