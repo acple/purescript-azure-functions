@@ -8,4 +8,4 @@ exports._logError = function (context, a) { context.log.error(a); }
 
 exports._logVerbose = function (context, a) { context.log.verbose(a); }
 
-exports._setRes = function (context, a) { context.res = a; }
+exports._getBindings = function (context) { return context.bindings; }
